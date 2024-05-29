@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Homework!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="calculator.js" defer></script>
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="grid">
+            <input class="calculatorScreen" id="display"></input readonly>
+            <button class="number" onclick="showOnDisplay(7)"><p>7</p></button>
+            <button class="number" onclick="showOnDisplay(8)">8</button>
+            <button class="number" onclick="showOnDisplay(9)">9</button>
+            <button class="calculation" onclick="showOnDisplay('/')">÷</button>
+            <button class="number" onclick="showOnDisplay(4)">4</button>
+            <button class="number" onclick="showOnDisplay(5)">5</button>
+            <button class="number" onclick="showOnDisplay(6)">6</button>
+            <button class="calculation" onclick="showOnDisplay('*')">×</button>
+            <button class="number" onclick="showOnDisplay(1)">1</button>
+            <button class="number" onclick="showOnDisplay(2)">2</button>
+            <button class="number" onclick="showOnDisplay(3)">3</button>
+            <button class="calculation" onclick="showOnDisplay('-')">−</button>
+            <button class="number" onclick="showOnDisplay(0)">0</button>
+            <button class="number" onclick="clr()">AC</button>
+            <button class="number" onclick="calculation()">=</button>
+            <button class="calculation" onclick="showOnDisplay('+')">+</button>
+        </div>
+    </div>
+    
+</body>
+
+</html>
