@@ -1,2 +1,3 @@
 A basic javascript calculator
-![CalculatorJavascript](https://github.com/SebuBergman/javascript-calculator/assets/54435867/616a0051-cdfb-4bc8-b31a-95d2f3d9b6b1)
+
+![CalculatorJavascript](https://github.com/SebuBergman/javascript-calculator/assets/54435867/dc10bcd5-bd9d-4cf0-9728-e8a8dc3e838c)
