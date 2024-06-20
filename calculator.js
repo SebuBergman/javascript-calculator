@@ -1,11 +1,10 @@
 const display = document.getElementById("display");
 let lastInput = "";
 
+// Function for displaying input and checking for double operator inputs
 function showOnDisplay(input) {
-    console.log(lastInput);
-    if(input == "*" || input == "/" || input == "-" || input == "+") {
+    if(input === "*" || input == "/" || input == "-" || input == "+") {
         if(lastInput == "*" || lastInput == "/" || lastInput == "-" || lastInput == "+") {
-            console.log("double input");
             lastInput = input;
         } else {
             display.value += input;
@@ -17,12 +16,13 @@ function showOnDisplay(input) {
     }
 }
 
-//Function that clears the displayed values
+// Function that clears the displayed values
 function clr() {
     display.value = "";
 }
 
+// Function for calculations using javascript eval function
 function calculation() {
-    console.log(display.value = eval(display.value));
+    display.value = eval(display.value);
 }
 
