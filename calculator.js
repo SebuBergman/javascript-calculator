@@ -1,7 +1,20 @@
 const display = document.getElementById("display");
+let lastInput = "";
 
 function showOnDisplay(input) {
-    display.value += input;
+    console.log(lastInput);
+    if(input == "*" || input == "/" || input == "-" || input == "+") {
+        if(lastInput == "*" || lastInput == "/" || lastInput == "-" || lastInput == "+") {
+            console.log("double input");
+            lastInput = input;
+        } else {
+            display.value += input;
+            lastInput = input;
+        }
+    } else {
+        display.value += input;
+        lastInput = input;
+    }
 }
 
 //Function that clears the displayed values
